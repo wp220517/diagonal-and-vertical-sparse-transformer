@@ -1,0 +1,19 @@
+{   
+    "num_classes": 4,
+
+    "evaluate": ["accuracy", "recall"],
+
+    "meta_csv_file": "/media/wp/data/item/Key-Sparse-Transformer/name_label_text.csv",
+
+    "wav2vec": {
+        "matdir": "/media/wp/data/item/Key-Sparse-Transformer/wav_wav2vec_mat",
+        "matkey": "x_a",
+        "length": 460
+    },
+
+    "roberta": {
+        "matdir": "/media/wp/data/item/Key-Sparse-Transformer/text_roberta_mat",
+        "matkey": "x_t",
+        "length": 20
+    }
+}
